@@ -10,6 +10,8 @@ We have a large dataset composed of several user events in an audio streaming se
 The task is to detect if a specific user will cancel the service, and we will use their interaction with
 the platform to do so.
 
+You can read the full story at this [Medium post](https://reneoctavio.medium.com/large-scale-churn-prediction-using-apache-spark-8d62febee52c)
+
 ## Download the dataset
 
 - The mini dataset can be obtained [here](https://1drv.ms/u/s!AjZCiYkckpt_hY8biIoQoRfMM2mRfQ?e=zdQA2k).
@@ -61,7 +63,7 @@ The most relevant features were the user age, mean user age (which is the averag
 
 ## Full analysis
 
-- The full analysis, feature selection and modeling can be found at our Medium post.
+- The full analysis, feature selection and modeling can be found at our [Medium post](https://reneoctavio.medium.com/large-scale-churn-prediction-using-apache-spark-8d62febee52c).
 
 ## Acknowledgements
 
@@ -70,3 +72,4 @@ The most relevant features were the user age, mean user age (which is the averag
 - [Spark ML Guide](https://spark.apache.org/docs/latest/ml-guide.html)
 - [Spark Standalone Mode](https://spark.apache.org/docs/latest/spark-standalone.html)
 - [Datacamp PySpark Cheat Sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_SQL_Cheat_Sheet_Python.pdf)
+- [An Easy Guide to Choose the Right Machine Learning Algorithm - Yogita Kinha](https://www.kdnuggets.com/2020/05/guide-choose-right-machine-learning-algorithm.html)
