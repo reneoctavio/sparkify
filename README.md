@@ -38,6 +38,7 @@ You can read the full story at this [Medium post](https://reneoctavio.medium.com
 
 - `Sparkify-Mini.ipynb` - A Jupyter Notebook running the analysis and model with the mini dataset
 - `Sparkify-Full.ipynb` - A Jupyter Notebook running the analysis and model with the full dataset
+- `coefficients.xlsx` - The coefficients of the Logistic Regression model train on the full dataset
 
 ## Summary of the results
 
