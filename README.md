@@ -49,6 +49,14 @@ The best model for the full dataset is both Logistic Regression and Linear SVM.
 | Mini with last week features and weights | 0.73          | 0.63           | 0.74                | 0.76       |
 | Full with last week features and weights |               |                | 0.80                | 0.80       |
 
+More stats for the Logistic Regression model on the full dataset
+
+|                     | Precision | Recall | F1 Score | Support |
+| ------------------- | --------- | ------ | -------- | ------- |
+| Not Canceled        | 0.92      | 0.79   | 0.85     | 4376    |
+| Canceled            | 0.53      | 0.78   | 0.63     | 1283    |
+| Total Weighted Avg. | 0.83      | 0.79   | 0.80     | 5659    |
+
 The most relevant features were the user age, mean user age (which is the average of user events) and the user percentage interaction of each page over all pages. The least relevant were the hourly song counts and lenghts.
 
 ## Full analysis
